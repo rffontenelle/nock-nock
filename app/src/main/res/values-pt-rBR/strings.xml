@@ -1,0 +1,90 @@
+<resources>
+
+  <string name="app_name">Toc Toc</string>
+  <string name="app_name_x">Toc Toc %1$s</string>
+
+  <string name="no_sites_added">Nenhum site adicionado!</string>
+
+  <string name="about">Sobre</string>
+  <string name="about_body"><![CDATA[
+        Um aplicativo simples projetado por <b>Aidan Follestad</b>.<br/>
+        <a href=\'https://af.codes\'>Site</a>&nbsp;&nbsp;
+        <a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+        <a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a>
+        <br/><br/><i>Toc toc é código aberto! Confirma a <a href=\'https://github.com/afollestad/nock-nock\'>página no GitHub</a>!</i>
+        <br/>Ícone por <a href=\'https://plus.google.com/+KevinAguilarC\'>Kevin Aguilar</a> de <b>221 Pixels</b>.
+        <br/>Veja a <a href=\'https://af.codes/privacypolicies/nocknock.html\'>Política de Privacidade</a>.
+  ]]></string>
+  <string name="dark_mode">Modo escuro</string>
+
+  <string name="dismiss">Descartar</string>
+  <string name="add_site">Adicionar site</string>
+  <string name="site_name">Nome do site</string>
+  <string name="site_name_hint">Nome exibido para o site</string>
+  <string name="site_url">URL do site</string>
+  <string name="site_url_hint">https://seusite.com</string>
+  <string name="site_tags">Tags do site</string>
+  <string name="site_tags_hint">p.ex., Um,Dois,Três</string>
+  <string name="site_tags_hint_full">Tags (p.ex., Um,Dois,Três)</string>
+  <string name="please_enter_name">Insira um nome!</string>
+  <string name="please_enter_url">Insira uma URL.</string>
+  <string name="please_enter_valid_url">Insira uma URL válida.</string>
+  <string name="please_enter_search_term">Insira um termo de pesquisa.</string>
+  <string name="please_enter_networkTimeout">Insira um tempo limite de rede maior que 0.</string>
+  <string name="please_enter_validCertUri">O certificado deve ser um arquivo válido ou URI de conteúdo.</string>
+
+  <string name="options">Opções</string>
+  <string name="remove_site">Remover site</string>
+  <string name="duplicate_and_modify">Duplicar ou modificar</string>
+  <string name="remove_site_prompt"><![CDATA[Remover <b>%1$s</b> dos seus sites?]]></string>
+  <string name="remove">Remover</string>
+  <string name="save_changes">Salvar alterações</string>
+  <string name="view_site">Ver site</string>
+  <string name="last_check_result">Resultado da última validação</string>
+  <string name="next_check">Próxima validação</string>
+  <string name="next_check_x">Próxima validação: %1$s</string>
+  <string name="now">Agora</string>
+  <string name="none">Nenhum</string>
+
+  <string name="disable_automatic_checks">Desativar validação automática</string>
+  <string name="disable_automatic_checks_prompt"><![CDATA[
+      Desativar a validação automática para <b>%1$s</b>? O site não será verificado em segundo plano
+      até que você reative a validação tocando no ícone de marca de seleção (Salvar). Você ainda pode
+      executar a validação manualmente tocando no ícone Atualizar na parte superior desta página.
+  ]]></string>
+  <string name="disable">Desativar</string>
+  <string name="renable_and_save_changes">Ativar validação automática &amp; salvar alterações</string>
+
+  <string name="response_timeout">Tempo de rede de resposta de rede (ms)</string>
+  <string name="response_timeout_default">10000</string>
+
+  <string name="ssl_certificate">Certificado SSL</string>
+  <string name="ssl_certificate_automatic">(Automático)</string>
+  <string name="ssl_certificate_browse">Procurar</string>
+
+  <string name="refresh_status">Atualizar status</string>
+
+  <string name="warning_http_url">
+    Aviso: este aplicativo valida a disponibilidade de sites com solicitações HTTP.
+    É recomendado que você use um URL com HTTP.
+  </string>
+  <string name="response_validation_mode">Modo de validação de resposta</string>
+  <string name="search_term">Pesquisar termo…</string>
+
+  <string name="validation_mode_status_desc">
+    O código de status HTTP está marcado. Se for um código de status bem-sucedido, o site passará pela validação.
+  </string>
+  <string name="validation_mode_term_desc">
+    A verificação do código de status é feita primeiro. Se for bem sucedido, o corpo da resposta é verificado.
+    Se ele contiver seu termo de pesquisa, o site passará pela validação.
+  </string>
+  <string name="validation_mode_javascript_desc">
+    A verificação do código de status é feita primeiro. Se for bem sucedido, o corpo da resposta é passado para
+    a função JavaScript acima. Se a função retornar true, o site passará pela validação. Joga uma exceção para
+    passar mensagens de erro personalizadas para o Toc Toc.
+  </string>
+
+  <string name="install_web_browser">Instale um aplicativo de navegador web, como o Google Chrome.</string>
+
+</resources>
